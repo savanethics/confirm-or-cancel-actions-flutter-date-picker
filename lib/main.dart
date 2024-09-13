@@ -32,7 +32,7 @@ class _ActionsButtonPickerState extends State<ActionsButtonPicker> {
                   view: DateRangePickerView.month,
                   selectionMode: DateRangePickerSelectionMode.range,
                   showActionButtons: true,
-                  cancelText: 'CANCEL',
+                  cancelText: 'CANCELXX',
                   confirmText: 'OK',
                   onCancel: () {
                     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
